@@ -8,7 +8,7 @@ import "./Ownable.sol";
 import "./Pausable.sol";
 import "./SafeMath.sol";
 
-contract KAPMineToken is Ownable, Pausable, IERC20, IERC20Metadata {
+contract KapitalToken is Ownable, Pausable, IERC20, IERC20Metadata {
     using SafeMath for uint256;
 
 
@@ -18,8 +18,8 @@ contract KAPMineToken is Ownable, Pausable, IERC20, IERC20Metadata {
 
     uint256 private _totalSupply;
 
-    string private _name = "Kapmine";
-    string private _symbol = "KAP";
+    string private _name = "Kapital";
+    string private _symbol = "KPT";
     uint8 private _decimals = 9;
     
     /**
